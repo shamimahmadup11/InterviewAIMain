@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class= "">
+    <!-- navbar -->
+    <nav
+        class="flex justify-evenly items-center bg-gradient-to-r from-purple-600 to-indigo-600 p-4 fixed top-0 left-0 right-0">
+        <ul class="flex gap-10">
+            <li><a href="index.html" class="text-white hover:text-yellow-300">Home</a></li>
+            <li><a href="about.html" class="text-white hover:text-yellow-300">About</a></li>
+            <li><a href="contact.html" class="text-white hover:text-yellow-300">Contact</a></li>
+        </ul>
+        <ul class="flex gap-10">
+            <li><a href="../auth/login.html" class="text-white hover:text-yellow-300">Login</a></li>
+            <li><a href="../auth/signup.html" class="text-white hover:text-yellow-300">Sign Up</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- middle  -->
+    <div class="container mx-auto px-4 py-8 mt-10">
+        <!-- <h1 class="text-3xl md:text-2xl lg:text-3xl w-[100%] font-semibold text-center  text-gray-800 mb-8">The online
+            resume builder getting folks hired by BBC, Google, Apple, Tesla, and Airbnb.</h1> -->
+            <h1 class="text-3xl md:text-2xl lg:text-3xl w-[100%] font-semibold text-center text-gray-800 mb-8" id="moving-heading">
+                The online resume builder getting folks hired by BBC, Google, Apple, Tesla, and Airbnb.
+              </h1>
+        <div class="flex flex-col align-middle md:flex-row  justify-center ">
+            <div
+                class="text-center h-auto w-50% md:text-left md:w-1/2 md:pr-8 flex flex-col gap-10 justify-center items-center ">
+                <!-- <h2 class="text-4xl md:text-3xl lg:text-4xl w-[30vw]  text-gray-800 mb-4  ">Build your brand-new resume in as little as 5 minutes.
+                    <span class="block text-sm md:text-base lg:text-lg">Try it for free.</span>
+                </h2> -->
+                <h2 class="text-4xl md:text-3xl lg:text-4xl text-gray-800 mb-4 inline-block animated-text">It takes only 5 seconds to screen your resume. Write it well..</h2>
+                <span class="block text-sm md:text-base lg:text-lg">Try it for free.</span>
+
+                <a href="../auth/signup.html"> <button
+                        class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded ">Generate it
+                        now</button></a>
+            </div>
+            <div class="md:w-1/2 mt-6 md:mt-0 flex justify-center">
+                <img class="w-full h-auto" src="../images/middleImage.webp" alt="Desktop_Image">
+            </div>
+        </div>
+    </div>
+
+    <!-- middle second -->
+    <script src="index.js"></script>
+</body>
+
+</html>
